@@ -8,7 +8,8 @@
 1. Open `Theme settings` and scroll to `Custom code`
 1. In the `CSS section`, paste your code
 
-![Custom CSS](/_media/guides/custom-css.png "Custom CSS")
+![Customize](/_media/global/guides/online_store-themes-customize.png "Customize")
+![Custom CSS](/_media/global/guides/theme_settings-custom_code.png "Custom CSS")
 
 
 ## Custom JS
