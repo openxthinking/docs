@@ -1,2 +1,2 @@
-# docs
-general docs
+# OpenThinking DOCS
+Docs
