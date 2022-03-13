@@ -10,8 +10,8 @@
 1. Open `Theme settings` and scroll to `Custom code`
 1. In the `CSS section`, paste your code
 
-![Customize](https://docs.openthinking.net/_media/global/howto/online_store-themes-customize.png "Customize")
-![Custom CSS](https://docs.openthinking.net/_media/global/howto/theme_settings-custom_code.png "Custom CSS")
+![Customize](https://docs.openthinking.net/media/global/howto/online_store-themes-customize.png "Customize")
+![Custom CSS](https://docs.openthinking.net/media/global/howto/theme_settings-custom_code.png "Custom CSS")
 
 
 ## Custom JS
