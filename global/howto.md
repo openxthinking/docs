@@ -9,6 +9,9 @@
 
 ![Upload files](https://docs.openthinking.net/media/global/howto/upload-files.png "Upload files")
 
+`Max file size: 20MB`
+
+
 [Learn more](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/file-uploads) about file uploads.
 
 
@@ -22,6 +25,39 @@
 
 ![Customize](https://docs.openthinking.net/media/global/howto/online_store-themes-customize.png "Customize")
 ![Custom CSS](https://docs.openthinking.net/media/global/howto/theme_settings-custom_code.png "Custom CSS")
+
+
+## Create, Edit files
+
+?> Before you customize your theme, it’s best practice to duplicate your theme to create a backup copy. This makes it easy to discard your changes and start again if you need to. [Learn how](https://bullet.docs.openthinking.net/#/customization?id=backup)
+
+
+<!-- tabs:start -->
+#### **Edit file**
+
+1. From `Shopify admin`, go to `Actions → Edit code`
+1. In the `search bar` type the name of the file your're looking for
+1. Click to `Open` the file
+1. `Save`
+
+![Edit code](https://docs.openthinking.net/media/global/howto/edit_code.png "Edit code")
+![Code editor](https://docs.openthinking.net/media/global/howto/edit_code-code_editor.png "Code editor")
+
+#### **Create file**
+
+1. From `Shopify admin`, go to `Actions → Edit code`
+1. Open the directory you need to create the file in (e.g. Sections)
+1. Click the `Add new ****` link (e.g. Add new Section)
+1. Remove the auto-generated boilerplate code
+1. Paste your code
+1. `Save`
+
+![Edit code](https://docs.openthinking.net/media/global/howto/edit_code.png "Edit code")
+![Edit code](https://docs.openthinking.net/media/global/howto/edit_code-the_editor.png "Edit code")
+<!-- tabs:end -->
+
+
+
 
 ## Metafields
 
