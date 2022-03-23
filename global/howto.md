@@ -60,9 +60,8 @@
 
 1. From `Shopify admin`, go to `Online store → Themes`
 1. Locate the theme, then click `Actions → Preview` 
-1. Click `Share preview` at the the bottom of the page that just opened
+1. Click `Share preview` at the bottom of the page that just opened
 1. Click `Copy link`
-1. `Done`
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/preview-actions-preview.png)
 ![Edit code](https://docs.openthinking.net/media/global/howto/preview-share_link.png)
