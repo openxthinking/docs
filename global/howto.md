@@ -56,7 +56,19 @@
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code-the_editor.png "Edit code")
 <!-- tabs:end -->
 
+## Generate preview link
 
+1. From `Shopify admin`, go to `Online store → Themes`
+1. Locate the theme, then click `Actions → Preview` 
+1. Click `Share preview` at the the bottom of the page that just opened
+1. Click `Copy link`
+1. `Done`
+
+![Edit code](https://docs.openthinking.net/media/global/howto/preview-actions-preview.png)
+![Edit code](https://docs.openthinking.net/media/global/howto/preview-share_link.png)
+![Edit code](https://docs.openthinking.net/media/global/howto/preview-copy_link.png)
+
+!> The preview link is available for few days. After that you need to generate a new one.
 
 
 ## Metafields
