@@ -3,8 +3,8 @@
 ## Upload files
 
 1. From `Shopify admin`, go to `Settings → Files`
-1. Click `Upload files`
-1. Select up to 20 files to upload, and then click `Open`
+1. Click <kbd>Upload files</kbd>
+1. Select up to 20 files to upload, and then click <kbd>Open</kbd>
 1. Copy the file URL from `Link` button
 
 ![Upload files](https://docs.openthinking.net/media/global/howto/upload-files.png "Upload files")
@@ -18,10 +18,10 @@
 ## Custom Code
 
 1. From `Shopify admin`, go to `Online Store → Themes`
-1. Click `Customize`
+1. Click <kbd>Customize</kbd>
 1. Open `Theme settings`, and scroll to `Custom code`
 1. In the `CSS or JS` section paste your code
-1. `Save`
+1. <kbd>Save</kbd>
 
 ![Customize](https://docs.openthinking.net/media/global/howto/online_store-themes-customize.png "Customize")
 ![Custom CSS](https://docs.openthinking.net/media/global/howto/theme_settings-custom_code.png "Custom CSS")
@@ -36,8 +36,8 @@
 
 1. From `Shopify admin`, go to `Actions → Edit code`
 1. In the `search bar` type the name of the file your're looking for
-1. Click to `Open` the file
-1. `Save`
+1. Click to <kbd>Open</kbd> the file
+1. <kbd>Save</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code.png "Edit code")
 ![Code editor](https://docs.openthinking.net/media/global/howto/edit_code-code_editor.png "Code editor")
@@ -46,10 +46,10 @@
 
 1. From `Shopify admin`, go to `Actions → Edit code`
 1. Open the directory you need to create the file in (e.g. Sections)
-1. Click the `Add new ****` link (e.g. Add new Section)
+1. Click the <kbd>Add new ****</kbd> link (e.g. Add new Section)
 1. Remove the auto-generated boilerplate code
 1. Paste your code
-1. `Save`
+1. <kbd>Save</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code.png "Edit code")
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code-the_editor.png "Edit code")
@@ -90,9 +90,9 @@ In case the first option to assign the page doesn't work, use this instead.
 ## Generate preview link
 
 1. From `Shopify admin`, go to `Online store → Themes`
-1. Locate the theme, then click `Actions → Preview` 
-1. Click `Share preview` at the bottom of the page that just opened
-1. Click `Copy link`
+1. Locate the theme, then click <kbd>Actions → Preview</kbd> 
+1. Click <kbd>Share preview</kbd> at the bottom of the page that just opened
+1. Click <kbd>Copy link</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/preview-actions-preview.png)
 ![Edit code](https://docs.openthinking.net/media/global/howto/preview-share_link.png)
@@ -109,9 +109,9 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 #### Step 1: Add new metafield definition
 
 1. From `Shopify admin`, open `Settings`
-1. Click `Metafields`, and open `Products`
-1. Select `Add definition`
-1. `Save`
+1. Click <kbd>Metafields</kbd>, and open `Products`
+1. Select <kbd>Add definition</kbd>
+1. <kbd>Save</kbd>
 
 ![Add metafield](https://docs.openthinking.net/media/global/howto/metafields-add.png "Add metafield")
 ![Add definition](https://docs.openthinking.net/media/global/howto/metafields-add_definition.png "Add definition")
@@ -119,11 +119,11 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 
 #### Step 2: Fill metafield in Products
 
-1. From `Shopify admin`, click `Products`
+1. From `Shopify admin`, click <kbd>Products</kbd>
 1. Open a product
 1. Scroll down to `Metafields`
 1. Enter the data value to the new metafield
-1. `Save`
+1. <kbd>Save</kbd>
 
 ![Edit value](https://docs.openthinking.net/media/global/howto/metafields-product-add_value.png "Edit value")
 
@@ -131,8 +131,8 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 #### Step 3: Display metafield on Product page
 
 1. From `Shopify admin`, go to `Online Store → Themes`
-1. Click `Customize`, then open a product template
-1. Select `(+) Add block`, then `Text`
+1. Click <kbd>Customize</kbd>, then open a product template
+1. Select <kbd>(+) Add block</kbd>, then `Text`
 1. In the top-right corner of the sidebar, select `Insert dynamic source`
 
 ![Dynamic source](https://docs.openthinking.net/media/global/howto/metafields-insert_dynamic_source.png "Dynamic source")
@@ -144,8 +144,8 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 ?> Not all metafield types are available with the available blocks. For example, if you need to display an image you'll need to use the `Custom Liquid` block, instead, and call the metafield with Liquid code.
 
 1. From `Shopify admin`, go to `Online Store → Themes`
-1. Click `Customize`, then open a product template
-1. Select `(+) Add block`, then `Custom Liquid`
+1. Click <kbd>Customize</kbd>, then open a product template
+1. Select <kbd>(+) Add block</kbd>, then `Custom Liquid`
 1. Get your metafield values with Liquid
 
 Generates a text version of the metafield data.
