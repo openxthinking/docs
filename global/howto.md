@@ -57,6 +57,7 @@
 
 
 ## Templates
+Templates control what's rendered on each type of page in a theme. You can create multiple versions of the same template type to create custom templates for different use cases. For example, you can create a separate product template for outerwear products, or a separate page template for pages with video content.
 
 #### Create template
 1. From Shopify admin, go to `Online Store → Themes`
