@@ -32,8 +32,7 @@
 ?> Before you customize your theme, it’s best practice to duplicate your theme to create a backup copy. This makes it easy to discard your changes and start again if you need to. [Learn how](https://bullet.docs.openthinking.net/#/customization?id=backup)
 
 
-<!-- tabs:start -->
-#### **Edit file**
+#### Edit file
 
 1. From `Shopify admin`, go to `Actions → Edit code`
 1. In the `search bar` type the name of the file your're looking for
@@ -43,7 +42,7 @@
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code.png "Edit code")
 ![Code editor](https://docs.openthinking.net/media/global/howto/edit_code-code_editor.png "Code editor")
 
-#### **Create file**
+#### Create file
 
 1. From `Shopify admin`, go to `Actions → Edit code`
 1. Open the directory you need to create the file in (e.g. Sections)
@@ -54,7 +53,39 @@
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code.png "Edit code")
 ![Edit code](https://docs.openthinking.net/media/global/howto/edit_code-the_editor.png "Edit code")
-<!-- tabs:end -->
+
+
+
+## Templates
+
+#### Create template
+1. From Shopify admin, go to `Online Store → Themes`
+1. Click <kbd>Customize</kbd>
+1. In the "Home page" dropdown, select `Pages`
+1. Click <kbd>[+] Create template</kbd>
+1. Enter the name for your template
+1. Select the template you want your new template to be based on
+1. Click <kbd>Create template</kbd>
+
+![Edit code](https://docs.openthinking.net/media/global/howto/templates_steps.png)
+
+#### Assign to page
+1. From the left bar click <kbd>Change</kbd>
+1. Select the page you want to assign the new template to
+1. <kbd>Save</kbd>
+
+![Edit code](https://docs.openthinking.net/media/global/howto/templates_customize_template.png)
+
+#### Assign to page option 2 
+In case the first option to assign the page doesn't work, use this instead.
+
+1. From Shopify admin, go to `Online Store → Pages`
+1. Open the page, in `Online store` block, assign a template from your current theme to define how the page is displayed.
+1. <kbd>Save</kbd>
+
+![Edit code](https://docs.openthinking.net/media/global/howto/templates_select_template.png)
+
+
 
 ## Generate preview link
 
