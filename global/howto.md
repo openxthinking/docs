@@ -15,7 +15,7 @@
 [Learn more](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/file-uploads) about file uploads.
 
 
-## Custom Code
+## Custom code
 
 1. From `Shopify admin`, go to `Online Store → Themes`
 1. Click <kbd>Customize</kbd>
@@ -27,7 +27,7 @@
 ![Custom CSS](https://docs.openthinking.net/media/global/howto/theme_settings-custom_code.png "Custom CSS")
 
 
-## Create, Edit files
+## Create or edit files
 
 ?> Before you customize your theme, it’s best practice to duplicate your theme to create a backup copy. This makes it easy to discard your changes and start again if you need to. [Learn how](https://bullet.docs.openthinking.net/#/customization?id=backup)
 
@@ -118,7 +118,7 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 ![Add definition](https://docs.openthinking.net/media/global/howto/metafields-add_definition.png "Add definition")
 ![Add definition](https://docs.openthinking.net/media/global/howto/metafields-add_definition_example.png "Add definition")
 
-#### Step 2: Fill metafield in Products
+#### Step 2: Fill metafield in products
 
 1. From `Shopify admin`, click <kbd>Products</kbd>
 1. Open a product
@@ -129,7 +129,7 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 ![Edit value](https://docs.openthinking.net/media/global/howto/metafields-product-add_value.png "Edit value")
 
 
-#### Step 3: Display metafield on Product page
+#### Step 3: Display metafield on product page
 
 1. From `Shopify admin`, go to `Online Store → Themes`
 1. Click <kbd>Customize</kbd>, then open a product template
