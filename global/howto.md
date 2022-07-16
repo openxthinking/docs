@@ -86,7 +86,34 @@ In case the first option to assign the page doesn't work, use this instead.
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_select_template.png)
 
+#### Accessing Unpublished Templates
+Shopify limits the templates in the admin to those included in your published theme. Often times you'll require access to templates in an unpublished theme but you are not ready to publish the new theme to unlock them. To address this, we suggest completing this workaround:
 
+!> Before continuing with this guide, make sure you have purchased the theme.
+
+Step 1:
+1. From `Shopify admin`, go to `Online store → Themes`
+1. Locate **Bullet**, select `Actions → Edit code`
+1. Under `Templates`, locate the name of the template you're going to make accessible (e.g. `page.about.json`)
+1. No changes are needed here — we just need the name confirmed for the next step
+
+Step 2: 
+1. From `Shopify admin`, go to `Online store → Themes`
+1. Click <kbd>Actions</kbd> then <kbd>Edit code</kbd> beside your published theme (e.g. Dawn)
+1. Under `Templates`, select <kbd>(+) Add a new template</kbd>
+1. For **"Create a new template for"**, select the base template (for this example, page)
+1. For the **File name**, add the custom template's name (`about` for this example). ⚠️ This needs to match the spelling of the unpublished theme's template name.
+![Edit code](https://docs.openthinking.net/media/global/howto/unpublished_templates.png)
+1. Click <kbd>Create template</kbd>
+1. Open the default Template file for the template type (e.g. `page.json`)
+1. Copy the code from the default file to replace the new file
+1. <kbd>Save</kbd>
+
+Step 3: Confirm the template is accessible
+1. From `Shopify admin`, go to `Online store → Pages`
+1. On the right side, in the **"Theme template"** select dropdown
+1. Click and select **"about"**
+![Edit code](https://docs.openthinking.net/media/global/howto/unpublished_templates_theme_template.png)
 
 ## Generate preview link
 
