@@ -35,7 +35,7 @@
 #### Edit file
 
 1. From `Shopify admin`, go to `Actions → Edit code`
-1. In the `search bar` type the name of the file your're looking for
+1. In the `search bar` type the name of the file you're looking for
 1. Click to <kbd>Open</kbd> the file
 1. <kbd>Save</kbd>
 
@@ -57,7 +57,7 @@
 
 
 ## Templates
-Templates control what's rendered on each type of page in a theme. You can create multiple versions of the same template type to create custom templates for different use cases. For example, you can create a separate product template for outerwear products, or a separate page template for pages with video content.
+Templates control what's rendered on each type of page in a theme. You can create multiple versions of the same template type to create custom templates for different use cases. For example, you can create a separate product template for outerwear products or a separate page template for pages with video content.
 
 #### Create template
 1. From Shopify admin, go to `Online Store → Themes`
@@ -70,23 +70,23 @@ Templates control what's rendered on each type of page in a theme. You can creat
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_steps.png)
 
-#### Assign to page
+#### Assign template
 1. From the left bar click <kbd>Change</kbd>
 1. Select the page you want to assign the new template to
 1. <kbd>Save</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_customize_template.png)
 
-#### Assign to page option 2 
+#### Assign template v2
 In case the first option to assign the page doesn't work, use this instead.
 
 1. From Shopify admin, go to `Online Store → Pages`
-1. Open the page, in `Online store` block, assign a template from your current theme to define how the page is displayed.
+1. Open the page, in `Online store` block, and assign a template from your current theme to define how the page is displayed.
 1. <kbd>Save</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_select_template.png)
 
-### Accessing Unpublished Templates
+### Access unpublished template
 Shopify limits the templates in the admin to those included in your published theme. Often times you'll require access to templates in an unpublished theme but you are not ready to publish the new theme to unlock them. To address this, we suggest completing this workaround.
 
 !> Before continuing with this guide, make sure you have purchased the theme.
@@ -118,10 +118,10 @@ Step 3: Confirm the template is accessible
 1. <kbd>Save</kbd>
 
 
-## Generate preview link
+## Preview link
 
 1. From `Shopify admin`, go to `Online store → Themes`
-1. Locate the theme, then click <kbd>Actions → Preview</kbd> 
+1. Locate the theme, then click <kbd>Actions</kbd> → `Preview`
 1. Click <kbd>Share preview</kbd> at the bottom of the page that just opened
 1. Click <kbd>Copy link</kbd>
 
@@ -129,7 +129,7 @@ Step 3: Confirm the template is accessible
 ![Edit code](https://docs.openthinking.net/media/global/howto/preview-share_link.png)
 ![Edit code](https://docs.openthinking.net/media/global/howto/preview-copy_link.png)
 
-!> The preview link is available for few days. After that you need to generate a new one.
+!> The preview link is available for a few days. After that, you need to generate a new one.
 
 
 ## Metafields
@@ -170,7 +170,7 @@ Use OpenThinking themes in combination with the new Metafields to provide dynami
 
 ---
 
-#### Display not supported metafields
+#### Not supported metafields
 
 ?> Not all metafield types are available with the available blocks. For example, if you need to display an image you'll need to use the `Custom Liquid` block, instead, and call the metafield with Liquid code.
 
