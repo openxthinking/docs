@@ -209,3 +209,57 @@ code above returns:
 - [Metafields API](https://shopify.dev/api/liquid/objects/metafield)
 - [Metafield filters](https://shopify.dev/api/liquid/filters/metafield-filters)
 - [Metafield compatibility](https://shopify.dev/themes/architecture/settings#dynamic-sources)
+
+
+## Change payments icons
+
+The payment icons that show in your theme's footer are determined by your store's [payment settings](https://help.shopify.com/en/manual/payments) and the customer's region and currency. You can disable payment icons in the theme editor in the footer section. If you want to add or remove payment icons without changing your payment settings, then you can do so by editing your theme code.
+
+1. From your Shopify admin, go to `Online Store > Themes`.
+1. Find the theme you want to edit, and then click <kbd>Actions</kbd> and <kbd>Edit code</kbd>.
+1. In the Sections directory, click `footer.liquid`.
+1. Find the following code in the file:
+
+```liquid
+{%- for type in shop.enabled_payment_types -%}
+```
+
+Replace it with:
+
+```liquid
+{%- assign enabled_payment_types = 'visa,master,apple_pay,paypal' | remove: ' ' | split: ',' -%}
+{%- for type in enabled_payment_types -%}
+```
+
+In the code that you just pasted, there is a list of payment providers separated by commas: `visa,master,apple_pay,paypal`. The payment providers that you include in this list will determine which payment icons display on your online store. You can edit the list of payment providers to suit your needs.
+
+<details>
+	<summary>The values that you can use are listed below:</summary>
+
+- `afterpay`
+- `american_express`
+- `apple_pay`
+- `bitcoin`
+- `dankort`
+- `diners_club`
+- `discover`
+- `dogecoin`
+- `dwolla`
+- `facebook_pay`
+- `forbrugsforeningen`
+- `google_pay`
+- `ideal`
+- `jcb`
+- `klarna`
+- `klarna`
+- `pay`
+- `later`
+- `litecoin`
+- `maestro`
+- `master`
+- `paypal`
+- `shopify_pay`
+- `sofort`
+- `visa`
+
+</details>
