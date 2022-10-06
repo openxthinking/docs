@@ -57,9 +57,13 @@
 
 
 ## Templates
-Templates control what's rendered on each type of page in a theme. You can create multiple versions of the same template type to create custom templates for different use cases. For example, you can create a separate product template for outerwear products or a separate page template for pages with video content.
+Templates are a collection of sections that are configured to give your online store a consistent look and feel. In the theme editor, you can discover which templates are applied to which pages, and then edit them to customize the information displayed to your customers.
 
-#### Create template
+Editing a template applies the changes to every page that uses that page template. For example, if you add a newsletter signup form to a collection template, then all collections pages that use the default collection template now display the newsletter signup form.
+
+!> Any changes you make to a template will impact all pages that use that template. If you want to display some pages of that type differently, then you can create a new template based on one that already exists in your theme. Creating a new template from an existing template automatically populates your new template with the same sections, which you can then edit to remove, add, or hide sections as needed without impacting the display of other templates of that type.
+
+### Create template
 1. From Shopify admin, go to `Online Store → Themes`
 1. Click <kbd>Customize</kbd>
 1. In the "Home page" dropdown, select `Pages`
@@ -70,14 +74,14 @@ Templates control what's rendered on each type of page in a theme. You can creat
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_steps.png)
 
-#### Assign template
+### Assign template
 1. From the left bar click <kbd>Change</kbd>
 1. Select the page you want to assign the new template to
 1. <kbd>Save</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_customize_template.png)
 
-#### Assign template v2
+### Assign template v2
 In case the first option to assign the page doesn't work, use this instead.
 
 1. From Shopify admin, go to `Online Store → Pages`
