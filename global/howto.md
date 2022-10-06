@@ -118,6 +118,16 @@ Step 3: Confirm the template is accessible
 1. <kbd>Save</kbd>
 
 
+### Delete template
+To delete a template, you need to use the code editor.
+
+1. From your Shopify admin, go to `Online Store → Themes`.
+1. Click <kbd>Actions</kbd> then <kbd>Edit code</kbd>
+1. In the code editor, find the `templates` folder. Click on the name of the template you want to delete, and then click <kbd>Delete file</kbd>. 
+
+?> If you have any resources assigned to that template, they will be displayed with the default template until you assign a different one.
+
+
 ## Preview link
 
 1. From `Shopify admin`, go to `Online store → Themes`
