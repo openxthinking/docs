@@ -122,13 +122,15 @@ Step 3: Confirm the template is accessible
 1. <kbd>Save</kbd>
 
 ### Revert template
-In case you made changes to a Template that you no longer need, you can revert it back a template to its original state.
+In case you made changes to a Template that you no longer need, you can revert it back to its original state.
 
 1. From your Shopify admin, go to `Online Store → Themes`.
 1. Click <kbd>Actions</kbd> then <kbd>Edit code</kbd>
-1. In the code editor, find the `templates` folder then click on the name of the template you want to revert.
-1. Then under `Recent changes` click on `Current` and select `Original - ...`.
+1. In the code editor, find the `templates` folder then click on the name of the template you want to revert. e.g. `page.json`
+1. Click on `Recent changes` and select `Original - `
 1. <kbd>Save</kbd>
+
+![Reset default page](https://bullet.docs.openthinking.net/_media/faq-page.json-reset.png "Reset default page")
 
 ### Delete template
 To delete a template, you need to use the code editor.
