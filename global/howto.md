@@ -236,9 +236,12 @@ code above returns:
 - [Metafield compatibility](https://shopify.dev/themes/architecture/settings#dynamic-sources)
 
 
-## Change payments icons
+## Payments icons
 
 The payment icons that show in your theme's footer are determined by your store's [payment settings](https://help.shopify.com/en/manual/payments) and the customer's region and currency. You can disable payment icons in the theme editor in the footer section. If you want to add or remove payment icons without changing your payment settings, then you can do so by editing your theme code.
+
+<!-- tabs:start -->
+#### **Steps**
 
 1. From your Shopify admin, go to `Online Store > Themes`.
 1. Find the theme you want to edit, and then click <kbd>Actions</kbd> and <kbd>Edit code</kbd>.
@@ -256,10 +259,11 @@ Replace it with:
 {%- for type in enabled_payment_types -%}
 ```
 
+#### **Available providers**
+
 In the code that you just pasted, there is a list of payment providers separated by commas: `visa,master,apple_pay,paypal`. The payment providers that you include in this list will determine which payment icons display on your online store. You can edit the list of payment providers to suit your needs.
 
-<details>
-	<summary>The values that you can use are listed below:</summary>
+#### The values that you can use:
 
 - `afterpay`
 - `american_express`
@@ -287,4 +291,4 @@ In the code that you just pasted, there is a list of payment providers separated
 - `sofort`
 - `visa`
 
-</details>
+<!-- tabs:end -->
