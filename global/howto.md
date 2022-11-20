@@ -82,10 +82,11 @@ Editing a template applies the changes to every page that uses that page templat
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_customize_template.png)
 
 ### Assign template v2
-In case the first option to assign the page doesn't work, use this instead.
+If the first option for assigning the page fails, try this one instead.
 
 1. From Shopify admin, go to `Online Store → Pages`
-1. Open the page, in `Online store` block, and assign a template from your current theme to define how the page is displayed.
+1. Open the desired page.
+1. Locate the `Online store` block and select a template from your current theme's dropdown list to define how the page is displayed.
 1. <kbd>Save</kbd>
 
 ![Edit code](https://docs.openthinking.net/media/global/howto/templates_select_template.png)
