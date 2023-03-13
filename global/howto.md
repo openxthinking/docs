@@ -17,7 +17,7 @@
 
 ## Custom code
 
-?> It's important to note that `Custom code` and `Custom CSS` are not the same thing. Please, make sure that you are using the `Custom code` section.
+!> It's important to note that `Custom code` and `Custom CSS` are not the same thing. Please, make sure that you are using the `Custom code` section.
 
 1. From `Shopify admin`, go to `Online Store → Themes`
 1. Click <kbd>Customize</kbd>
