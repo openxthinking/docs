@@ -17,14 +17,16 @@
 
 ## Custom code
 
+?> It's important to note that `Custom code` and `Custom CSS` are not the same thing. Please, make sure that you are using the `Custom code` section.
+
 1. From `Shopify admin`, go to `Online Store → Themes`
 1. Click <kbd>Customize</kbd>
-1. Open `Theme settings`, and scroll to `Custom code`
+1. Open `Theme settings`, and scroll to `CUSTOM CODE` ⚠️ `Custom code` and `Custom CSS` are not the same thing. You need to use the `Custom code` section.
 1. In the `CSS or JS` section paste your code
 1. <kbd>Save</kbd>
 
 ![Customize](https://docs.openthinking.net/media/global/howto/online_store-themes-customize.png "Customize")
-![Custom CSS](https://docs.openthinking.net/media/global/howto/theme_settings-custom_code.png "Custom CSS")
+![Custom CSS](https://docs.openthinking.net/media/global/howto/theme_settings-custom_code.png "Custom code > CSS")
 
 
 ## Create or edit files
