@@ -248,7 +248,8 @@ The payment icons that show in your theme's footer are determined by your store'
 
 1. From your Shopify admin, go to `Online Store → Themes`.
 1. Find the theme you want to edit, and then click <kbd>Actions</kbd> and <kbd>Edit code</kbd>.
-1. In the Sections directory, click `footer.liquid`.
+1. In the Snippets directory, click `global-paymenticons.liquid`. 
+	- *For older versions*: In the Sections directory, click `footer.liquid`.
 1. Find the following code in the file:
 
 ```liquid
