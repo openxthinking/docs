@@ -263,20 +263,20 @@ The key steps are creating a metafield to hold the size chart page for each prod
 
 ## Color swatches
 
-!> This function is in early access and only available to certain merchants. You also need Bullet `v4.7 or above`.
+!> This feature is in early access and only available to select merchants. Bullet `v4.7` or above is also required.
 
-Swatches are a visual representation of product variants. To display swatches, you need the latest version of Bullet `v4.7 or above` and category metafields connected to your variants. With Bullet, variant options can be displayed either in a dropdown or as a swatch. If you're displaying variant options as a swatch, then you can choose to have these swatches displayed as a circle, swatch, or none, which displays the option value as text.
+Swatches are a visual representation of product variants. To display swatches, you need the latest version of Bullet `v4.7` or above and category metafields connected to your variants.
 
 #### Set up
 
-1. From your Shopify admin, go to Products.
+1. From your `Shopify admin`, go to `Products`.
 1. Click a product.
-1. In the Category section enter your product’s category, and then select the most accurate result from the Product Category list. 1. The product category must include a Color category metafield.
-1. In the Variants section, click Add options like size or color.
-1. In the Connect metafield section, click Color.
-1. Click the Add color field and select any default color entries from the drop-down menu.
+1. In the Category section enter your product’s category, and then select the most accurate result from the Product Category list. 1. The product category must include a `Color category metafield`.
+1. In the Variants section, click <kbd>Add options</kbd> like size or color.
+1. In the Connect metafield section, click <kbd>Color</kbd>.
+1. Click the `Add color` field and select any default color entries from the drop-down menu.
 1. To add a custom color entry:
-	1. Click Add color, and then click Add new entry.
+	1. Click `Add color`, and then click `Add new entry`.
 	1. On the Add entry page, fill in the Label and Color fields.
 	1. If you want a pattern instead of a color, then fill in the Image field. If you add both a color and image, then the image will be used for the swatch.
 	1. Select a Base color and Base pattern.
@@ -285,14 +285,15 @@ Swatches are a visual representation of product variants. To display swatches, y
 
 #### Customize swatches
 
-1. From your Shopify admin, go to `Online Store → Themes`.
+1. From your `Shopify admin`, go to `Online Store → Themes`.
 1. Make sure you have the latest version of Bullet installed, then click <kbd>Customise</kbd>.
 1. Navigate to the product you added color options to.
-1. Optional: To customize swatches, click the "Variant picker" block. You can change the display of the swatches by choosing between Circle, Square, or None.
+1. Optional: To customize swatches, click the `Variant picker` block. You can change the display of the swatches by choosing between `Circle, Square, or None`.
 1. Click <kbd>Save</kbd> to save the theme.
 
 ##### External links 
 - [Shopify docs](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches)
+
 
 ## Payments icons
 
