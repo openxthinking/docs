@@ -14,7 +14,6 @@
 
 [Learn more](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/file-uploads) about file uploads.
 
-
 ## Custom code
 
 !> It's important to note that `Custom code` and `Custom CSS` are not the same thing. Please, make sure that you are using the `Custom code` section.
@@ -162,7 +161,7 @@ To delete a template, you need to use the code editor.
 
 ## Metafields
 
-Use OpenThinking themes in combination with the new Metafields to provide dynamic content in page blocks.
+Use OpenThinking themes in combination with metafields to provide dynamic content in page blocks.
 
 
 #### Step 1: Add new metafield definition
@@ -231,13 +230,69 @@ code above returns:
 <span class="metafield-single_line_text_field">This is a single line of text.</span>
 ```
 
-
 ##### External links 
 - [Metafields](https://help.shopify.com/en/manual/metafields)
 - [Metafields API](https://shopify.dev/api/liquid/objects/metafield)
 - [Metafield filters](https://shopify.dev/api/liquid/filters/metafield-filters)
 - [Metafield compatibility](https://shopify.dev/themes/architecture/settings#dynamic-sources)
 
+
+## Size chart
+
+#### Set up
+
+1. From `Shopify admin`, go to `Online Store → Themes`
+1. Click <kbd>Customize</kbd>, then open a product template
+1. Select <kbd>(+) Add block</kbd>, then `Variant picker`
+1. Inside the `Variant picker` select your Size chart page.
+1. <kbd>Save</kbd>
+
+!> The size chart feature currently only supports the English word "Size" to activate it. If your  variant uses a different word for size in any other language for instance (e.g. "Taglia" in Italian) the size chart will not appear.
+
+### Dynamic size charts
+In case you want to have different size charts for different products, you can do it with Metafields. 
+The key steps are creating a metafield to hold the size chart page for each product, and then connecting that metafield to the variant picker so it can pull the page dynamically.
+
+1. [Create a new metafield](#metafields) of type `Page` for `Product`. 
+1. Open the [variant picker block](#size-chart) like the example above, but instead of selecting a page, click on `Connect dynamic source`. Here, select the new metafield you created.
+1. Add different size chart page to the `size_chart` metafield for each of your products. The correct size chart will now dynamically appear for each product based on the page connected to that product's metafield.
+	1. Open a product
+	1. Scroll down to `Metafields`
+	1. Select the size chart page you want.
+	1. <kbd>Save</kbd>
+
+## Color swatches
+
+!> This function is in early access and only available to certain merchants. You also need Bullet `v4.7 or above`.
+
+Swatches are a visual representation of product variants. To display swatches, you need the latest version of Bullet `v4.7 or above` and category metafields connected to your variants. With Bullet, variant options can be displayed either in a dropdown or as a swatch. If you're displaying variant options as a swatch, then you can choose to have these swatches displayed as a circle, swatch, or none, which displays the option value as text.
+
+#### Set up
+
+1. From your Shopify admin, go to Products.
+1. Click a product.
+1. In the Category section enter your product’s category, and then select the most accurate result from the Product Category list. 1. The product category must include a Color category metafield.
+1. In the Variants section, click Add options like size or color.
+1. In the Connect metafield section, click Color.
+1. Click the Add color field and select any default color entries from the drop-down menu.
+1. To add a custom color entry:
+	1. Click Add color, and then click Add new entry.
+	1. On the Add entry page, fill in the Label and Color fields.
+	1. If you want a pattern instead of a color, then fill in the Image field. If you add both a color and image, then the image will be used for the swatch.
+	1. Select a Base color and Base pattern.
+	1. Click <kbd>Save</kbd>.
+1. Click <kbd>Save</kbd> to save your product. 
+
+#### Customize swatches
+
+1. From your Shopify admin, go to `Online Store → Themes`.
+1. Make sure you have the latest version of Bullet installed, then click <kbd>Customise</kbd>.
+1. Navigate to the product you added color options to.
+1. Optional: To customize swatches, click the "Variant picker" block. You can change the display of the swatches by choosing between Circle, Square, or None.
+1. Click <kbd>Save</kbd> to save the theme.
+
+##### External links 
+- [Shopify docs](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches)
 
 ## Payments icons
 
