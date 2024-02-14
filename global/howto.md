@@ -340,15 +340,16 @@ In the code that you just pasted, there is a list of payment providers separated
 - `ideal`
 - `jcb`
 - `klarna`
-- `klarna`
-- `pay`
-- `later`
+- `klarna-pay-later`
 - `litecoin`
 - `maestro`
 - `master`
 - `paypal`
 - `shopify_pay`
 - `sofort`
+- `unionpay`
 - `visa`
+
+You can review the full list of available provider icons <a href="https://github.com/activemerchant/payment_icons/tree/master/app/assets/images/payment_icons" target="_blank">here</a>. Copy the name of each icon that you need from the list, *without* the `.svg` extension!
 
 <!-- tabs:end -->
