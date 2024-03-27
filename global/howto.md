@@ -267,7 +267,7 @@ The key steps are creating a metafield to hold the size chart page for each prod
 
 Swatches are a visual representation of product variants. To display swatches, you need the latest version of Bullet and category metafields connected to your variants. With Bullet, variant options can be displayed either in a dropdown or as a swatch. If you're displaying variant options as a swatch, then you can choose to have these swatches displayed as a circle, swatch, or none, which displays the option value as text.
 
-?> Swatches can only be used with products that have variants connected to category metafields entries for color.
+?> Swatches are only available on the product page. Swatches can only be used with products that have variants connected to category metafields entries for color.
 
 #### Set up
 
@@ -283,9 +283,9 @@ Swatches are a visual representation of product variants. To display swatches, y
 	1. If you want a pattern instead of a color, then fill in the **Image** field. If you add both a color and image, then the image will be used for the swatch.
 	1. Select a **Base color** and **Base pattern**.
 	1. Click **Save**.
-1. Click **Save** to save your product.
+1. Click <kbd>Save</kbd>
 
-?> This part is not covered by our complimentary Support service. We cannot assist you in setting this up.
+!> This part is not covered by our complimentary Support service. We cannot assist you in setting this up.
 
 #### Customize swatches
 
