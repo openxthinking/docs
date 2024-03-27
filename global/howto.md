@@ -20,8 +20,8 @@
 
 1. From `Shopify admin`, go to `Online Store → Themes`
 1. Click <kbd>Customize</kbd>
-1. Open `Theme settings`, and scroll to `CUSTOM CODE` ⚠️ `Custom code` and `Custom CSS` are not the same thing. You need to use the `Custom code` section.
-1. In the `CSS or JS` section paste your code
+1. Open `Theme settings`, and scroll to `Custom code` ⚠️ `Custom code` and `Custom CSS` are not the same thing! You need to use the `Custom code` section.
+1. In the `CSS` or `JS` textarea paste your code.
 1. <kbd>Save</kbd>
 
 ![Customize](https://docs.openthinking.net/media/global/howto/online_store-themes-customize.png "Customize")
@@ -265,23 +265,27 @@ The key steps are creating a metafield to hold the size chart page for each prod
 
 !> This feature is in early access and only available to select merchants. Bullet `v4.7` or above is also required.
 
-Swatches are a visual representation of product variants. To display swatches, you need the latest version of Bullet `v4.7` or above and category metafields connected to your variants.
+Swatches are a visual representation of product variants. To display swatches, you need the latest version of Bullet and category metafields connected to your variants. With Bullet, variant options can be displayed either in a dropdown or as a swatch. If you're displaying variant options as a swatch, then you can choose to have these swatches displayed as a circle, swatch, or none, which displays the option value as text.
+
+?> Swatches can only be used with products that have variants connected to category metafields entries for color.
 
 #### Set up
 
-1. From your `Shopify admin`, go to `Products`.
+1. From your Shopify admin, go to **Products**.
 1. Click a product.
-1. In the Category section enter your product’s category, and then select the most accurate result from the Product Category list. 1. The product category must include a `Color category metafield`.
-1. In the Variants section, click <kbd>Add options</kbd> like size or color.
-1. In the Connect metafield section, click <kbd>Color</kbd>.
-1. Click the `Add color` field and select any default color entries from the drop-down menu.
+1. In the **Product organization** section, enter your product’s category in the **Product category** field, and then select the most accurate result from the Product category list. The product category must include a Color category metafield.
+1. In the **Variants** section, click **Add options like size or color**.
+1. Click **Color**.
+1. Click the **Add color** field and select any default color entries from the drop-down menu.
 1. To add a custom color entry:
-	1. Click `Add color`, and then click `Add new entry`.
-	1. On the Add entry page, fill in the Label and Color fields.
-	1. If you want a pattern instead of a color, then fill in the Image field. If you add both a color and image, then the image will be used for the swatch.
-	1. Select a Base color and Base pattern.
-	1. Click <kbd>Save</kbd>.
-1. Click <kbd>Save</kbd> to save your product. 
+	1. Click **Add color**, and then click **Add new entry**.
+	1. On the **Add entry** page, fill in the **Label** and **Color** fields.
+	1. If you want a pattern instead of a color, then fill in the **Image** field. If you add both a color and image, then the image will be used for the swatch.
+	1. Select a **Base color** and **Base pattern**.
+	1. Click **Save**.
+1. Click **Save** to save your product.
+
+?> This part is not covered by our complimentary Support service. We cannot assist you in setting this up.
 
 #### Customize swatches
 
